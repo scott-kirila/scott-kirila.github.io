@@ -1,4 +1,4 @@
-tf.loadLayersModel('model/model.json').then(function(model) {
+tf.loadLayersModel('../model/model.json').then(function(model) {
     window.model = model;
    });
 
